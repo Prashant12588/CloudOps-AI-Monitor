@@ -1,0 +1,7 @@
+services:
+  cloudops-app:
+    build: ./app
+    container_name: cloudops-app
+    ports:
+      - "5000:5000"
+    restart: always
