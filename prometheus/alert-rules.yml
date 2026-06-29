@@ -1,0 +1,11 @@
+groups:
+  - name: cloudops-alerts
+    rules:
+      - alert: FlaskAppDown
+        expr: up{job="cloudops-app"} == 0
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Flask application is down"
+          description: "Prometheus cannot reach the CloudOps Flask app."
