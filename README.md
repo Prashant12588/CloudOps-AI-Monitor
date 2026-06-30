@@ -237,16 +237,27 @@ docker ps
 
 # 📸 Screenshots
 
-> Add screenshots after AWS deployment.
+## Grafana Dashboard
 
-- Grafana Dashboard
-- Prometheus Targets
-- Jenkins Successful Build
-- Alertmanager
-- AI Health Report
-- Docker Containers
-- GitHub Actions / Webhook
+![Grafana Dashboard](docs/screenshots/grafana-dashboard.png)
 
+---
+
+## Prometheus Targets
+
+![Prometheus Targets](docs/screenshots/prometheus-targets.png)
+
+---
+
+## Jenkins CI/CD Pipeline
+
+![Jenkins Pipeline](docs/screenshots/jenkins-success.png)
+
+---
+
+## Alertmanager
+
+![Alertmanager](docs/screenshots/alertmanager.png)
 ---
 
 # 🚀 Future Improvements
