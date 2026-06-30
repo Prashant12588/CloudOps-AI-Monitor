@@ -101,11 +101,10 @@ The objective is to simulate how production systems are deployed, monitored, sec
 
 # 🏗️ System Architecture
 
-> Replace the image below with your final architecture diagram.
+The following diagram shows the complete architecture of the CloudOps AI Monitor platform.
 
-```markdown
 ![CloudOps AI Monitor Architecture](docs/architecture/system-architecture.png)
-```
+
 
 ```text
 GitHub
