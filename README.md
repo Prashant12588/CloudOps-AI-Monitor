@@ -1,220 +1,6 @@
-# ✨ Features
+# 🚀 CloudOps AI Monitor
 
-## 🚀 Application
-- Flask REST API
-- Health Check Endpoint
-- Prometheus Metrics Endpoint
-- Dockerized Deployment
-
-## 🐳 Containerization
-- Docker
-- Docker Compose
-- Multi-container Architecture
-- Nginx Reverse Proxy
-
-## 📊 Monitoring
-- Prometheus Metrics Collection
-- Grafana Dashboards
-- Node Exporter
-- Infrastructure Monitoring
-
-## 📜 Logging
-- Loki
-- Promtail
-- Centralized Docker Log Collection
-
-## 🚨 Alerting
-- Alertmanager
-- Gmail Email Notifications
-- Application Down Alerts
-- Infrastructure Monitoring Alerts
-
-## 🤖 AI Monitoring
-- AI Anomaly Detection
-- AI Health Report Generation
-- Historical Report Storage
-- Automated Recommendations
-
-## ⚙️ Automation
-- Self-Healing Script
-- Cron-based Health Checks
-- Automated Report Generation
-
-## 🔄 CI/CD
-- GitHub Repository
-- Jenkins Pipeline
-- GitHub Webhook
-- Automatic Deployment Pipeline
-
----
-
-# 🏗️ System Architecture
-
-```
-                    GitHub
-                       │
-                 Git Push
-                       │
-                 GitHub Webhook
-                       │
-                       ▼
-                  Jenkins CI/CD
-                       │
-                       ▼
-               Docker Compose
-                       │
-      ┌────────────────┼─────────────────┐
-      │                │                 │
-      ▼                ▼                 ▼
-   Nginx          Flask API         Node Exporter
-      │                │                 │
-      └──────────┬─────┴─────────────────┘
-                 ▼
-            Prometheus
-                 │
-      ┌──────────┼──────────┐
-      ▼          ▼          ▼
-  Grafana   Alertmanager   AI Engine
-      │          │          │
-      │          ▼          ▼
-      │      Gmail Alerts  Health Reports
-      │
-      ▼
- Loki + Promtail
-      │
-      ▼
-Centralized Logs
-```
-
----
-
-# 🛠️ Technology Stack
-
-| Category | Technology |
-|----------|------------|
-| Language | Python |
-| Backend | Flask |
-| Containers | Docker, Docker Compose |
-| Reverse Proxy | Nginx |
-| Monitoring | Prometheus |
-| Visualization | Grafana |
-| Metrics | Node Exporter |
-| Logging | Loki, Promtail |
-| Alerting | Alertmanager |
-| CI/CD | Jenkins, GitHub |
-| AI | Python AI Engine |
-| Operating System | Ubuntu Linux |
-
----# ✨ Features
-
-## 🚀 Application
-- Flask REST API
-- Health Check Endpoint
-- Prometheus Metrics Endpoint
-- Dockerized Deployment
-
-## 🐳 Containerization
-- Docker
-- Docker Compose
-- Multi-container Architecture
-- Nginx Reverse Proxy
-
-## 📊 Monitoring
-- Prometheus Metrics Collection
-- Grafana Dashboards
-- Node Exporter
-- Infrastructure Monitoring
-
-## 📜 Logging
-- Loki
-- Promtail
-- Centralized Docker Log Collection
-
-## 🚨 Alerting
-- Alertmanager
-- Gmail Email Notifications
-- Application Down Alerts
-- Infrastructure Monitoring Alerts
-
-## 🤖 AI Monitoring
-- AI Anomaly Detection
-- AI Health Report Generation
-- Historical Report Storage
-- Automated Recommendations
-
-## ⚙️ Automation
-- Self-Healing Script
-- Cron-based Health Checks
-- Automated Report Generation
-
-## 🔄 CI/CD
-- GitHub Repository
-- Jenkins Pipeline
-- GitHub Webhook
-- Automatic Deployment Pipeline
-
----
-
-# 🏗️ System Architecture
-
-```
-                    GitHub
-                       │
-                 Git Push
-                       │
-                 GitHub Webhook
-                       │
-                       ▼
-                  Jenkins CI/CD
-                       │
-                       ▼
-               Docker Compose
-                       │
-      ┌────────────────┼─────────────────┐
-      │                │                 │
-      ▼                ▼                 ▼
-   Nginx          Flask API         Node Exporter
-      │                │                 │
-      └──────────┬─────┴─────────────────┘
-                 ▼
-            Prometheus
-                 │
-      ┌──────────┼──────────┐
-      ▼          ▼          ▼
-  Grafana   Alertmanager   AI Engine
-      │          │          │
-      │          ▼          ▼
-      │      Gmail Alerts  Health Reports
-      │
-      ▼
- Loki + Promtail
-      │
-      ▼
-Centralized Logs
-```
-
----
-
-# 🛠️ Technology Stack
-
-| Category | Technology |
-|----------|------------|
-| Language | Python |
-| Backend | Flask |
-| Containers | Docker, Docker Compose |
-| Reverse Proxy | Nginx |
-| Monitoring | Prometheus |
-| Visualization | Grafana |
-| Metrics | Node Exporter |
-| Logging | Loki, Promtail |
-| Alerting | Alertmanager |
-| CI/CD | Jenkins, GitHub |
-| AI | Python AI Engine |
-| Operating System | Ubuntu Linux |
-
----# 🚀 CloudOps AI Monitor
-
-> A production-style DevOps and Cloud Monitoring Platform built with Docker, Prometheus, Grafana, Jenkins, Loki, Alertmanager and AI-based Health Monitoring.
+> A production-style DevOps and Cloud Monitoring Platform built with Docker, Prometheus, Grafana, Jenkins, Loki, Promtail, Alertmanager, and an AI-powered monitoring engine.
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -227,28 +13,42 @@ Centralized Logs
 
 # 📌 Project Overview
 
-CloudOps AI Monitor is an enterprise-inspired DevOps monitoring platform that demonstrates modern cloud engineering practices.
+CloudOps AI Monitor is an enterprise-style DevOps monitoring platform demonstrating modern cloud engineering practices.
 
-The project combines application deployment, observability, automated monitoring, centralized logging, CI/CD, self-healing automation, AI-powered anomaly detection, and health reporting into a single production-style environment.
+This project integrates:
 
-The primary objective is to simulate how modern organizations monitor and manage containerized applications.
+- Docker & Docker Compose
+- Flask REST API
+- Prometheus
+- Grafana
+- Loki
+- Promtail
+- Alertmanager
+- Jenkins CI/CD
+- GitHub Webhooks
+- Self-Healing Automation
+- AI Health Monitoring
+
+The objective is to simulate how production systems are deployed, monitored, secured, and maintained in modern cloud environments.
 
 ---
 
 # 🎯 Objectives
 
 - Deploy containerized applications
-- Monitor infrastructure and applications
+- Monitor infrastructure and application metrics
 - Collect system metrics
 - Visualize metrics using Grafana
-- Generate alerts automatically
-- Receive email notifications
+- Generate automated alerts
+- Send Gmail notifications
+- Centralize logs
 - Perform self-healing
 - Build CI/CD pipelines
 - Detect anomalies using AI
 - Generate automated health reports
 
 ---
+
 # ✨ Features
 
 ## 🚀 Application
@@ -264,8 +64,8 @@ The primary objective is to simulate how modern organizations monitor and manage
 - Nginx Reverse Proxy
 
 ## 📊 Monitoring
-- Prometheus Metrics Collection
-- Grafana Dashboards
+- Prometheus
+- Grafana
 - Node Exporter
 - Infrastructure Monitoring
 
@@ -278,63 +78,60 @@ The primary objective is to simulate how modern organizations monitor and manage
 - Alertmanager
 - Gmail Email Notifications
 - Application Down Alerts
-- Infrastructure Monitoring Alerts
+- Infrastructure Alerts
 
 ## 🤖 AI Monitoring
 - AI Anomaly Detection
-- AI Health Report Generation
+- AI Health Report Generator
 - Historical Report Storage
 - Automated Recommendations
 
 ## ⚙️ Automation
 - Self-Healing Script
-- Cron-based Health Checks
-- Automated Report Generation
+- Cron Automation
+- Automated AI Report Generation
 
 ## 🔄 CI/CD
-- GitHub Repository
+- GitHub
 - Jenkins Pipeline
-- GitHub Webhook
-- Automatic Deployment Pipeline
+- GitHub Webhooks
+- Automatic Deployment
 
 ---
 
 # 🏗️ System Architecture
 
+> Replace the image below with your final architecture diagram.
+
+```markdown
+![CloudOps AI Monitor Architecture](docs/architecture/system-architecture.png)
 ```
-                    GitHub
-                       │
-                 Git Push
-                       │
-                 GitHub Webhook
-                       │
-                       ▼
-                  Jenkins CI/CD
-                       │
-                       ▼
-               Docker Compose
-                       │
-      ┌────────────────┼─────────────────┐
-      │                │                 │
-      ▼                ▼                 ▼
-   Nginx          Flask API         Node Exporter
-      │                │                 │
-      └──────────┬─────┴─────────────────┘
-                 ▼
-            Prometheus
-                 │
-      ┌──────────┼──────────┐
-      ▼          ▼          ▼
-  Grafana   Alertmanager   AI Engine
-      │          │          │
-      │          ▼          ▼
-      │      Gmail Alerts  Health Reports
-      │
-      ▼
- Loki + Promtail
-      │
-      ▼
-Centralized Logs
+
+```text
+GitHub
+   │
+Git Push
+   │
+GitHub Webhook
+   │
+Jenkins
+   │
+Docker Compose
+   │
+────────────────────────────────────
+│            │              │
+Nginx     Flask App     AI Engine
+│            │              │
+└──────┬─────┘              │
+       ▼                    │
+  Prometheus                │
+       │                    │
+ ┌─────┼──────────────┐      │
+ ▼     ▼              ▼      ▼
+Grafana Loki     Alertmanager Health Reports
+ │                   │
+ ▼                   ▼
+Dashboards      Gmail Alerts
 ```
 
 ---
@@ -348,7 +145,7 @@ Centralized Logs
 | Containers | Docker, Docker Compose |
 | Reverse Proxy | Nginx |
 | Monitoring | Prometheus |
-| Visualization | Grafana |
+| Dashboard | Grafana |
 | Metrics | Node Exporter |
 | Logging | Loki, Promtail |
 | Alerting | Alertmanager |
@@ -357,33 +154,29 @@ Centralized Logs
 | Operating System | Ubuntu Linux |
 
 ---
+
 # 📂 Project Structure
 
-```
+```text
 CloudOps-AI-Monitor/
 │
 ├── ai-engine/
 │   ├── anomaly_detector.py
 │   ├── health_report.py
+│   ├── Dockerfile
+│   ├── requirements.txt
 │   └── reports/
 │
 ├── alertmanager/
-│
 ├── app/
-│   ├── app.py
-│   ├── Dockerfile
-│   └── requirements.txt
-│
+├── docs/
+│   └── architecture/
+├── grafana/
 ├── loki/
-│
 ├── nginx/
-│
 ├── prometheus/
-│
 ├── promtail/
-│
 ├── scripts/
-│   └── restart_failed.sh
 │
 ├── docker-compose.yml
 ├── Jenkinsfile
@@ -395,20 +188,20 @@ CloudOps-AI-Monitor/
 
 # ⚙️ Installation
 
-## Clone Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/Prashant12588/CloudOps-AI-Monitor.git
 cd CloudOps-AI-Monitor
 ```
 
-## Start the Project
+Start the application:
 
 ```bash
 docker compose up --build -d
 ```
 
-## Verify Running Containers
+Verify running containers:
 
 ```bash
 docker ps
@@ -429,15 +222,67 @@ docker ps
 
 ---
 
-# 📊 Monitoring Features
+# 📊 Monitoring Capabilities
 
-- Real-time infrastructure monitoring
-- Container metrics
-- System resource utilization
-- Application health monitoring
-- AI-powered anomaly detection
-- Automated health reports
-- Email alerts
-- Centralized logging
+- Infrastructure Monitoring
+- Application Monitoring
+- AI Health Reports
+- AI Anomaly Detection
+- Centralized Logging
+- Email Alerts
+- Self-Healing
+- CI/CD Automation
 
 ---
+
+# 📸 Screenshots
+
+> Add screenshots after AWS deployment.
+
+- Grafana Dashboard
+- Prometheus Targets
+- Jenkins Successful Build
+- Alertmanager
+- AI Health Report
+- Docker Containers
+- GitHub Actions / Webhook
+
+---
+
+# 🚀 Future Improvements
+
+- Deploy on AWS EC2
+- HTTPS with Let's Encrypt
+- Kubernetes Deployment
+- Terraform Infrastructure
+- Slack / Microsoft Teams Notifications
+- Multi-region Deployment
+
+---
+
+# 👨‍💻 Author
+
+**Prashant Yadav**
+
+Cloud & DevOps Engineer
+
+### Skills
+
+- Linux
+- Docker
+- Docker Compose
+- Jenkins
+- Git & GitHub
+- Python
+- Bash
+- Prometheus
+- Grafana
+- Loki
+- Alertmanager
+- AI Monitoring
+
+---
+
+# 📄 License
+
+This project is intended for educational and portfolio purposes.
