@@ -3,7 +3,7 @@ import statistics
 import datetime
 import time
 
-PROMETHEUS_URL = "http://localhost:9090"
+PROMETHEUS_URL = "http://prometheus:9090"
 
 QUERIES = {
     "cpu_usage_percent": '100 - (avg(rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)',

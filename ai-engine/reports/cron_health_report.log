@@ -1,0 +1,17 @@
+============================================================
+CloudOps AI Health Report
+============================================================
+Generated: 2026-06-30 09:00:01.945438
+
+CPU Usage           : 21.92%
+Memory Usage        : 74.04%
+Disk Usage          : 30.91%
+Application Status  : UP
+Node Exporter       : UP
+
+Recommendation
+------------------------------------------------------------
+✅ System is healthy.
+============================================================
+
+Report saved to: ai-engine/reports/health_report_2026-06-30_09-00-01.txt

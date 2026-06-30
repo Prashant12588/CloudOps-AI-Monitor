@@ -75,5 +75,13 @@ services:
       - loki
     restart: always
 
+  ai-engine:
+    build: ./ai-engine
+    container_name: ai-engine
+    depends_on:
+      - prometheus
+    volumes:
+      - ./ai-engine/reports:/ai-engine/reports
+    restart: "no"
 volumes:
   grafana-data:
