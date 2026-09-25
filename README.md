@@ -212,12 +212,11 @@ docker ps
 
 | Service | URL |
 |---------|-----|
-| Flask Application | http://65.1.90.200 |
-| Grafana | http://65.1.90.200:3000 |
-| Prometheus | http://65.1.90.200:9090 |
-| Alertmanager | http://65.1.90.200:9093 |
-| Loki | http://65.1.90.200:3100 |
-| Jenkins | http://65.1.90.200:8080 |
+| Flask Application | http://65.1.93.200 |
+| Grafana | http://65.1.93.200:3000 |
+| Prometheus | http://65.1.93.200:9090 |
+| Alertmanager | http://65.1.93.200:9093 |
+| Loki | http://65.1.93.200:3100 |
 
 ---
 
